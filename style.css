@@ -1,0 +1,170 @@
+/* Font Sources */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+main {
+  width: 95%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+section.intro img {
+  width: 100px;
+  float: left;
+  margin: 10px;
+}
+
+.skills-list img {
+  width: 390px;
+}
+
+a:link,
+a:visited {
+  color: #D65506;
+  padding: 4px 0px;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #DAD0BE;
+  color: #D65506;
+  transition: background .2s;
+}
+
+.resume {
+  
+}
+
+
+/* Intro */
+section.intro {
+  width: 50%;
+}
+
+.intro {
+  width: 50%;
+}
+
+
+
+/* Future plans */
+.future-plans {
+ width: 50%;
+ 
+}
+
+
+
+/* Skills list */
+.skills-list {
+  width: 50%;
+  
+}
+
+
+
+/* Typography */
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro,
+.future-plans,
+.skills-list,
+.resume {
+  font-family: 'Roboto' ;
+}
+
+p {
+  
+}
+
+
+
+/* Mobile Media Query */
+@media screen and (min-width: 320px) {
+  
+  body {
+    background: #A5AFC1;
+  }
+  
+  /* Mobile Query */
+  .tablet,
+ .desktop,
+  .fablet{
+    display: none;
+  }
+  
+}
+
+/* Fablet Media Query */
+@media screen and (min-width: 480px) {
+  
+  body {
+    background: #A5AFC1;
+  }
+  
+  .mobile,
+  .table,
+  .desktop {
+    display: hide;
+  }
+  .fablet {
+    display: block;
+  }
+  
+}
+  
+/* Tablet Media Query */
+@media screen and (min-width: 768px) {
+  
+  body {
+    background: #A5AFC1;
+  }
+  
+  /* Tablet View */
+.desktop,
+.mobile,
+ .fablet {
+  display: none;
+ }
+  
+  .tablet {
+    display: block;
+  }
+  
+}
+
+/* Media Query for Desktop */
+@media screen and (min-width: 1000px) {
+  
+  body {
+    background: #A5AFC1;
+      
+  }
+  
+  /* Desktop View */
+  .mobile,
+  .tablet,
+  .fablet {
+    display: none;
+  }
+  
+  .desktop {
+    display: block;
+  }
+  
+}
+
+
+/* Large Screen Media Query */
+@media screen and (min-width: 2000px) {
+  
+  body {
+    background: #A5AFC1;
+  }
+  
+  
+}
