@@ -1,4 +1,0 @@
-# Josiah Baldwin
-
-<img src="" />
-
