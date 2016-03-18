@@ -1,0 +1,243 @@
+/* Font Sources */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Positioning */
+.intro { 
+  display: inline-block;
+  posiiton: absolute;
+  width: 50%;
+}
+.top {
+ display: inline-block; 
+ margin: 0 auto;
+ position: relative;
+ height: 300px;
+}
+.bottom {
+  position: relative;
+  height: 250px;
+}
+.skills-list {   
+ 
+ width: 50%;
+ display: inline-block;
+ position: absolute;
+}
+.portfolio {
+ display: inline-block;
+ padding: 10px;
+ position: absolute;
+ bottom: -300px;
+}
+.future-plans {
+  
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+}
+.resume { 
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+main {
+  width: 75%;
+  margin: 0 auto;
+}
+section.intro img {
+  width: 100px;
+  float: left;
+  margin: 10px;
+}
+
+/* Link Decoration */
+a:link,
+a:visited {
+  color: #D65506;
+  padding: 4px 0px;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #DAD0BE;
+  color: #D65506;
+  transition: background .2s;
+}
+
+/* Typography */
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro,
+.future-plans,
+.skills-list,
+.resume
+.portfolio {
+  font-family: 'Roboto' ;
+}
+
+/* Mobile Media Query */
+@media screen and (min-width: 320px) {
+
+  body {
+    background: #A5AFC1;
+  }
+  
+  /* Mobile Query */
+  .tablet,
+ .desktop,
+  .fablet{
+    display: none;
+  }
+  
+}
+
+
+/* Fablet Media Query */
+@media screen and (min-width: 480px) {
+  
+  body {
+    background: #A5AFC1;
+  }
+  
+  }
+  .mobile,
+  .table,
+  .desktop {
+    display: hide;
+  }
+  .fablet {
+    display: block;
+  }
+  
+}
+
+
+/* Tablet Media Query */
+@media screen and (min-width: 768px) {
+  
+  body {
+    background: #A5AFC1;
+  }
+  
+  /* Tablet View */
+.desktop,
+.mobile,
+ .fablet {
+  display: none;
+ }
+  
+  .tablet {
+    display: block;
+  }
+  
+}
+
+/* Media Query for Desktop */
+@media screen and (min-width: 1000px) {
+  
+  body {
+    background: #A5AFC1;
+      
+  }
+  
+  /* Desktop View */
+  .mobile,
+  .tablet,
+  .fablet {
+    display: none;
+  }
+  
+  .desktop {
+    display: block;
+  }
+  
+}
+
+/* Large Screen Media Query */
+@media screen and (min-width: 2000px) {
+  
+  body {
+    background: #A5AFC1;
+  }
+  
+  
+}
+
+
+
+/* Protfolio CSS */
+/* Typography */
+.title h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Style */
+
+
+.thumbs img {
+  width: 300px;
+  height: 200px;
+}
+
+figcaption {
+  background: #D65506;
+  position: absolute;
+  padding: 15px;
+  bottom: 0;
+  width: 270px;
+}
+
+figure {
+  height: 200px;
+  position: relative;
+  width: 300px;
+  overflow: hidden;
+}
+
+/* Positioning */
+
+.thumbs {
+  position: relative;
+  margin: 0 auto;
+  width: 75%;
+  height: 300px;
+}
+.thumbnail1{
+  
+  display: inline-block;
+  margin: 10px; 
+}
+.thumbnail2{
+  display: inline-block;
+  margin: 10px;
+}
+.thumbnail3{
+  display: inline-block; 
+  margin: 10px;
+}
+/* First Frame */
+figure figcaption {
+  opacity: .5;
+  bottom: -116px;
+  transition: all .9s;
+}
+figure.thumbnail3 figcaption {
+  opacity: .5;
+  bottom: -157px;
+  transition: all .9s;
+}
+
+/* last frame */
+figure:hover figcaption {
+  opacity: 1;
+  bottom: 0;
+}
+
+
+
